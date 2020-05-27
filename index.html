@@ -9,39 +9,44 @@
   <script type="text/javascript" src="mouse_circles.js"></script>
 </head>
 <body class="flex items-center h-screen bg-orange-400">
-  <div class="rounded rounded-t-lg overflow-hidden shadow-lg max-w-lg my-auto mx-auto bg-white">
-    <div class="bg-red-100">
-      <img src="img/undraw_Beer_celebration_cefj.svg" class="w-2/4 mx-auto" />
-    </div>
-    <div class="px-8 pt-8">
-      <h3 class="text-black text-2xl font-bold font-sans text-orange-700">Un apéro de folie devant ton ordi !</h3>
-      <p class="mt-2 font-sans font-light text-sm text-grey-dark">Kronenbourg, Heineken, viens déguster ces bières d'exception en visio avec tous tes amis !</p>
-    </div>
-    <!-- Div Form -->
-    <div class="w-full">
-      <form class="bg-white rounded px-8 pt-6 pb-8" action="https://getform.io/f/4b0adc5b-a1b2-4eca-a4d6-31e08c2b6faf" method="POST">
-        <label class="block text-black text-sm font-bold mb-2 text-orange-700" for="name">Entres ton nom : </label>
-        <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" name="name" placeholder="Bruce Wayne">
-        <div class="items-center mt-5">
-            <p>Si t'es chaud pour un petit jeu en même temps, coches le(s) ou proposes en un en dessous :</p>
-            <div class="flex justify-between my-5">
-                <label class="font-bold block" for="Skribbl">
-                    <input type="checkbox" name="Skribbl" value="Skribbl">
-                    <span class="text-orange-700">Skribbl.io</span>
-                </label>
-                <label class="font-bold block" for="Loup-garou">
-                    <input type="checkbox" name="Loup-garou" value="Loup-garou">
-                    <span class="text-orange-700">Loup-Garou</span>
-                </label>
-                <label class="font-bold block" for="Petit bac">
-                    <input type="checkbox" name="Blanc Manger Coco" value="Petit bac">
-                    <span class="text-orange-700">Petit Bac</span>
-                </label>
-            </div>
-          <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" name="game-proposal" placeholder="Proposes un nom de jeu !">
+    <div id="particles-js" class="absolute z-0 top-0 left-0"></div>
+    <div class="z-10 rounded rounded-t-lg overflow-hidden shadow-lg max-w-lg my-auto mx-auto bg-white">
+        <div class="bg-red-100">
+        <img src="img/undraw_Beer_celebration_cefj.svg" class="w-2/4 mx-auto" />
         </div>
-        <button class=" mt-5 shadow bg-orange-500 hover:bg-orange-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">Send</button>
-      </form>
+        <div class="px-8 pt-8">
+        <h3 class="text-black text-2xl font-bold font-sans text-orange-700">Un apéro de folie devant ton ordi !</h3>
+        <p class="mt-2 font-sans font-light text-sm text-grey-dark">Kronenbourg, Heineken, viens déguster ces bières d'exception en visio avec tous tes amis !</p>
+        </div>
+        <!-- Div Form -->
+        <div class="w-full">
+            <form class="bg-white rounded px-8 pt-6 pb-8" action="https://getform.io/f/4b0adc5b-a1b2-4eca-a4d6-31e08c2b6faf" method="POST">
+                <label class="block text-black text-sm font-bold mb-2 text-orange-700" for="name">Entres ton nom : </label>
+                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" name="name" placeholder="Bruce Wayne">
+                <div class="items-center mt-5">
+                    <p>Si t'es chaud pour un petit jeu en même temps, coches le(s) ou proposes en un en dessous :</p>
+                    <div class="flex justify-between my-5">
+                        <label class="font-bold block" for="Skribbl">
+                            <input type="checkbox" name="Skribbl" value="Skribbl">
+                            <span class="text-orange-700">Skribbl.io</span>
+                        </label>
+                        <label class="font-bold block" for="Loup-garou">
+                            <input type="checkbox" name="Loup-garou" value="Loup-garou">
+                            <span class="text-orange-700">Loup-Garou</span>
+                        </label>
+                        <label class="font-bold block" for="Petit bac">
+                            <input type="checkbox" name="Blanc Manger Coco" value="Petit bac">
+                            <span class="text-orange-700">Petit Bac</span>
+                        </label>
+                    </div>
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" name="game-proposal" placeholder="Proposes un nom de jeu !">
+                </div>
+                <button class=" mt-5 shadow bg-orange-500 hover:bg-orange-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">Send</button>
+            </form>
+        </div>
     </div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particules.js"></script>
+    <script src="js/mouse_circles.js"></script>
   </body>
 </html>
