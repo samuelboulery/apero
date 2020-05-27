@@ -16,7 +16,7 @@ function animateCircles(event) {
   circle.style.borderColor = color;
 
   // adds animation
-  circle.style.transition = "all 0.6s linear 0s";
+  circle.style.transition = "all 0.5s linear 0s";
 
   circle.style.left = circle.offsetLeft - 20 + 'px';
   circle.style.top = circle.offsetTop - 20 + 'px';
